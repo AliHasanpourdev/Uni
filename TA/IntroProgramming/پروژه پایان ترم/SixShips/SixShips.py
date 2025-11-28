@@ -6,6 +6,8 @@
 
 import pygame
 import sys
+import numpy as np
+from constants import *
 
 #RGB Colors
 WHITE        = (255,255,255)
@@ -32,9 +34,7 @@ END_COLUMN   = [(1,4),(2,4),(3,4)]
 
 # Here Are The Objects We Need At The Main Code
 
-import pygame
-import numpy as np
-from CONSTANTS import *
+
 sq_list = [[pygame.Rect(CORDS[i],CORDS[j],TIlE_SIZE,TIlE_SIZE) for i in range(5)] for j in range(5)]
 
 

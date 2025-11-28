@@ -1,6 +1,3 @@
-from collections.abc import Iterable
-
-
 class Polynomial :
     def __init__(self, c) :
         self.degree = len(c)-1
